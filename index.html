@@ -1,0 +1,1398 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>超凡影业精选短剧_官方精品短剧平台_高清正版网络短剧</title>
+<meta name="description" content="超凡影业精选短剧官方网站，专注原创精品短剧的内容平台，汇聚高清正版短剧、创作团队故事与社区互动，为用户呈现值得信赖的短剧内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1226'/%3E%3Cpath d='M18 20h20l10 12-10 12H18z' fill='%23ff4d6d'/%3E%3Ccircle cx='26' cy='32' r='4' fill='%23ffd166'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --cf-dark:#0f1226;
+    --cf-dark-2:#171a35;
+    --cf-card:#1e2142;
+    --cf-line:rgba(255,255,255,.10);
+    --cf-text:#eef0ff;
+    --cf-muted:#a3a8cc;
+    --cf-pink:#ff4d6d;
+    --cf-gold:#ffd166;
+    --cf-cyan:#5ce1e6;
+    --cf-radius:16px;
+    --cf-head-h:112px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--cf-dark);
+    color:var(--cf-text);
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit;}
+  .cf-wrap{width:min(1200px,92%);margin:0 auto;}
+  .cf-section{padding:64px 0;border-top:1px solid var(--cf-line);}
+  .cf-section:first-of-type{border-top:none;}
+  .cf-eyebrow{
+    display:inline-block;font-size:12px;letter-spacing:.22em;
+    color:var(--cf-cyan);text-transform:uppercase;margin-bottom:10px;
+  }
+  .cf-h2{
+    font-size:clamp(24px,3.2vw,36px);
+    line-height:1.3;margin:0 0 14px;font-weight:800;
+    letter-spacing:.01em;
+  }
+  .cf-h2 .cf-accent{color:var(--cf-pink);}
+  .cf-h3{font-size:19px;margin:0 0 8px;font-weight:700;line-height:1.45;}
+  .cf-lead{color:var(--cf-muted);font-size:15.5px;max-width:820px;margin:0 0 28px;}
+  .cf-grid{display:grid;gap:22px;}
+  .cf-tag{
+    display:inline-block;font-size:12px;padding:3px 10px;border-radius:99px;
+    background:rgba(255,77,109,.14);color:#ff9db0;border:1px solid rgba(255,77,109,.32);
+    margin:0 6px 6px 0;
+  }
+  .cf-tag--cyan{background:rgba(92,225,230,.12);color:#8ff0f3;border-color:rgba(92,225,230,.3);}
+  .cf-tag--gold{background:rgba(255,209,102,.12);color:#ffe0a0;border-color:rgba(255,209,102,.3);}
+  .cf-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 22px;border-radius:99px;font-size:14.5px;font-weight:600;
+    background:var(--cf-pink);color:#fff;transition:transform .18s ease,box-shadow .18s ease,background .18s;
+    box-shadow:0 8px 22px rgba(255,77,109,.28);
+  }
+  .cf-btn:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(255,77,109,.38);}
+  .cf-btn--ghost{
+    background:transparent;color:var(--cf-text);
+    border:1px solid var(--cf-line);box-shadow:none;
+  }
+  .cf-btn--ghost:hover{background:rgba(255,255,255,.06);box-shadow:none;}
+  .cf-btn--sm{padding:8px 15px;font-size:13px;box-shadow:none;}
+
+  /* ---------- 公告条 + 页头（吸顶） ---------- */
+  .cf-sticky{position:sticky;top:0;z-index:60;}
+  .cf-notice{
+    background:linear-gradient(90deg,#ff4d6d,#ff7a45 55%,#ffd166);
+    color:#1a0d14;font-size:13px;font-weight:600;
+  }
+  .cf-notice .cf-wrap{display:flex;align-items:center;gap:12px;padding:8px 0;flex-wrap:wrap;}
+  .cf-notice__badge{
+    background:#1a0d14;color:#ffd166;font-size:11px;padding:2px 9px;border-radius:99px;
+    letter-spacing:.06em;flex:none;
+  }
+  .cf-notice__text{flex:1;min-width:0;}
+  .cf-notice__link{text-decoration:underline;text-underline-offset:3px;flex:none;}
+  .cf-header{
+    background:rgba(15,18,38,.92);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--cf-line);
+  }
+  .cf-header__inner{
+    display:flex;align-items:center;gap:22px;padding:14px 0;
+  }
+  .cf-logo{display:flex;align-items:center;gap:10px;flex:none;}
+  .cf-logo__mark{
+    width:38px;height:38px;border-radius:11px;
+    background:linear-gradient(135deg,var(--cf-pink),#7a2cf0);
+    display:grid;place-items:center;font-weight:900;font-size:17px;color:#fff;
+    box-shadow:0 6px 18px rgba(122,44,240,.35);
+  }
+  .cf-logo__name{font-size:17px;font-weight:800;letter-spacing:.02em;}
+  .cf-logo__sub{display:block;font-size:10.5px;color:var(--cf-muted);font-weight:500;letter-spacing:.16em;}
+  .cf-nav{display:flex;gap:6px;margin-left:8px;flex-wrap:wrap;}
+  .cf-nav a{
+    font-size:14px;color:#cfd3f2;padding:7px 12px;border-radius:9px;transition:.16s;
+  }
+  .cf-nav a:hover{background:rgba(255,255,255,.07);color:#fff;}
+  .cf-header__tools{margin-left:auto;display:flex;align-items:center;gap:10px;}
+  .cf-search{position:relative;}
+  .cf-search input{
+    width:210px;padding:9px 14px 9px 34px;border-radius:99px;
+    background:rgba(255,255,255,.07);border:1px solid var(--cf-line);
+    color:var(--cf-text);font-size:13.5px;outline:none;transition:.18s;
+  }
+  .cf-search input:focus{border-color:var(--cf-pink);background:rgba(255,77,109,.08);width:240px;}
+  .cf-search__icon{
+    position:absolute;left:12px;top:50%;transform:translateY(-50%);
+    font-size:13px;color:var(--cf-muted);pointer-events:none;
+  }
+  .cf-search__hint{
+    position:absolute;top:calc(100% + 8px);left:0;right:0;
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:12px;
+    padding:8px;font-size:13px;color:var(--cf-muted);display:none;z-index:70;
+    box-shadow:0 14px 30px rgba(0,0,0,.45);
+  }
+  .cf-search__hint.is-open{display:block;}
+  .cf-search__hint b{color:var(--cf-gold);}
+  .cf-burger{
+    display:none;width:42px;height:42px;border-radius:10px;
+    border:1px solid var(--cf-line);font-size:19px;color:#fff;
+  }
+  @media(max-width:1080px){
+    .cf-nav{
+      display:none;position:absolute;left:0;right:0;top:100%;
+      flex-direction:column;background:var(--cf-dark-2);padding:12px 5%;
+      border-bottom:1px solid var(--cf-line);gap:2px;
+    }
+    .cf-nav.is-open{display:flex;}
+    .cf-header{position:relative;}
+    .cf-sticky .cf-header{position:relative;}
+    .cf-burger{display:grid;place-items:center;}
+    .cf-search input{width:150px;}
+    .cf-search input:focus{width:170px;}
+  }
+  @media(max-width:620px){
+    .cf-header__tools .cf-search{display:none;}
+    .cf-h2{font-size:23px;}
+  }
+
+  /* ---------- 首屏 ---------- */
+  .cf-hero{padding:56px 0 40px;position:relative;overflow:hidden;}
+  .cf-hero::before{
+    content:"";position:absolute;inset:-30% 40% 40% -20%;
+    background:radial-gradient(circle at 30% 40%,rgba(255,77,109,.20),transparent 62%);
+    pointer-events:none;
+  }
+  .cf-hero::after{
+    content:"";position:absolute;right:-10%;bottom:-30%;width:60%;height:80%;
+    background:radial-gradient(circle at 60% 60%,rgba(92,225,230,.14),transparent 65%);
+    pointer-events:none;
+  }
+  .cf-hero__inner{
+    position:relative;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,5fr);
+    gap:46px;align-items:center;
+  }
+  .cf-hero__badge{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12.5px;color:var(--cf-gold);border:1px solid rgba(255,209,102,.36);
+    background:rgba(255,209,102,.09);padding:5px 14px;border-radius:99px;margin-bottom:20px;
+  }
+  .cf-hero h1{
+    font-size:clamp(30px,4.4vw,52px);line-height:1.16;margin:0 0 18px;
+    font-weight:900;letter-spacing:.01em;
+  }
+  .cf-hero h1 em{
+    font-style:normal;color:var(--cf-pink);
+    background:linear-gradient(120deg,#ff4d6d,#ff9a3c);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+  }
+  .cf-hero__desc{color:#c4c8e8;font-size:15.5px;margin:0 0 22px;max-width:560px;}
+  .cf-hero__actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;}
+  .cf-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;max-width:520px;}
+  .cf-stat{
+    background:rgba(255,255,255,.04);border:1px solid var(--cf-line);
+    border-radius:14px;padding:14px 16px;
+  }
+  .cf-stat__num{font-size:24px;font-weight:900;color:var(--cf-gold);line-height:1.2;}
+  .cf-stat__label{font-size:12.5px;color:var(--cf-muted);margin-top:2px;}
+  .cf-hero__visual{position:relative;}
+  .cf-hero__frame{
+    border-radius:22px;overflow:hidden;border:1px solid var(--cf-line);
+    box-shadow:0 30px 70px rgba(0,0,0,.55);aspect-ratio:16/11;background:#0b0d1f;
+  }
+  .cf-hero__frame img{width:100%;height:100%;object-fit:cover;}
+  .cf-hero__float{
+    position:absolute;left:-18px;bottom:20px;
+    background:rgba(23,26,53,.94);border:1px solid var(--cf-line);
+    border-radius:14px;padding:11px 16px;backdrop-filter:blur(8px);
+    box-shadow:0 14px 32px rgba(0,0,0,.5);
+  }
+  .cf-hero__float strong{display:block;font-size:14px;color:#fff;}
+  .cf-hero__float span{font-size:12px;color:var(--cf-muted);}
+  @media(max-width:900px){
+    .cf-hero__inner{grid-template-columns:minmax(0,1fr);gap:32px;}
+    .cf-hero__float{left:8px;bottom:8px;}
+  }
+
+  /* ---------- 焦点内容 ---------- */
+  .cf-focus{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:26px;}
+  .cf-focus__main{
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    overflow:hidden;transition:transform .2s ease;
+  }
+  .cf-focus__main:hover{transform:translateY(-3px);}
+  .cf-focus__cover{aspect-ratio:16/9;overflow:hidden;background:#111430;}
+  .cf-focus__cover img{width:100%;height:100%;object-fit:cover;}
+  .cf-focus__body{padding:22px 24px 26px;}
+  .cf-focus__meta{font-size:12.5px;color:var(--cf-muted);display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;}
+  .cf-focus__list{display:flex;flex-direction:column;gap:14px;}
+  .cf-focus__item{
+    background:rgba(255,255,255,.035);border:1px solid var(--cf-line);
+    border-radius:14px;padding:16px 18px;transition:.18s;
+  }
+  .cf-focus__item:hover{background:rgba(255,77,109,.08);border-color:rgba(255,77,109,.35);}
+  .cf-focus__item h3{font-size:15.5px;margin:0 0 6px;}
+  .cf-focus__item p{font-size:13.5px;color:var(--cf-muted);margin:0 0 8px;}
+  .cf-focus__num{
+    font-size:12px;color:var(--cf-cyan);font-weight:800;letter-spacing:.08em;
+  }
+  @media(max-width:900px){.cf-focus{grid-template-columns:minmax(0,1fr);}}
+
+  /* ---------- 视频流 ---------- */
+  .cf-videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+  .cf-video{
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;
+  }
+  .cf-video:hover{transform:translateY(-4px);border-color:rgba(255,77,109,.4);}
+  .cf-video__cover{position:relative;aspect-ratio:16/9;background:#111430;overflow:hidden;}
+  .cf-video__cover img{width:100%;height:100%;object-fit:cover;}
+  .cf-video__play{
+    position:absolute;inset:0;display:grid;place-items:center;
+    background:linear-gradient(180deg,transparent 40%,rgba(8,9,22,.72));
+    opacity:0;transition:.2s;
+  }
+  .cf-video:hover .cf-video__play{opacity:1;}
+  .cf-video__play span{
+    width:48px;height:48px;border-radius:50%;background:var(--cf-pink);
+    display:grid;place-items:center;font-size:16px;color:#fff;
+    box-shadow:0 8px 22px rgba(255,77,109,.5);
+  }
+  .cf-video__body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1;}
+  .cf-video__title{font-size:15.5px;font-weight:700;line-height:1.5;margin:0 0 8px;}
+  .cf-video__desc{font-size:13.5px;color:var(--cf-muted);margin:0 0 12px;flex:1;}
+  .cf-video__stats{
+    font-size:12.5px;color:var(--cf-muted);display:flex;gap:14px;flex-wrap:wrap;
+    padding-top:10px;border-top:1px dashed var(--cf-line);margin-bottom:12px;
+  }
+  .cf-video__bar{display:flex;gap:8px;flex-wrap:wrap;}
+  .cf-act{
+    display:inline-flex;align-items:center;gap:5px;font-size:12.5px;
+    padding:6px 12px;border-radius:99px;border:1px solid var(--cf-line);
+    color:#cfd3f2;transition:.16s;background:rgba(255,255,255,.03);
+  }
+  .cf-act:hover{background:rgba(255,255,255,.09);color:#fff;}
+  .cf-act.is-liked{background:rgba(255,77,109,.16);border-color:rgba(255,77,109,.5);color:#ff9db0;}
+  .cf-act.is-saved{background:rgba(255,209,102,.14);border-color:rgba(255,209,102,.48);color:#ffe0a0;}
+  @media(max-width:1000px){.cf-videos{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media(max-width:640px){.cf-videos{grid-template-columns:minmax(0,1fr);}}
+
+  /* ---------- 专题 ---------- */
+  .cf-topics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+  .cf-topic{
+    background:linear-gradient(160deg,rgba(255,77,109,.10),rgba(92,225,230,.06));
+    border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    padding:22px 24px;transition:.18s;
+  }
+  .cf-topic:hover{border-color:rgba(92,225,230,.36);}
+  .cf-topic__head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:8px;}
+  .cf-topic__status{font-size:11.5px;color:var(--cf-cyan);border:1px solid rgba(92,225,230,.35);border-radius:99px;padding:2px 10px;flex:none;}
+  .cf-topic p{font-size:13.8px;color:var(--cf-muted);margin:0 0 12px;}
+  .cf-topic ol{margin:0;padding-left:20px;font-size:13.8px;color:#cdd1f0;display:flex;flex-direction:column;gap:5px;}
+
+  /* ---------- 作者 ---------- */
+  .cf-authors{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+  .cf-author{
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    padding:20px;display:flex;gap:16px;transition:.18s;
+  }
+  .cf-author:hover{border-color:rgba(255,209,102,.4);}
+  .cf-avatar{
+    width:62px;height:62px;border-radius:50%;flex:none;display:grid;place-items:center;
+    font-size:22px;font-weight:900;color:#fff;overflow:hidden;
+  }
+  .cf-avatar img{width:100%;height:100%;object-fit:cover;}
+  .cf-author__name{font-size:16px;font-weight:800;margin:0 0 2px;}
+  .cf-author__field{font-size:12.5px;color:var(--cf-gold);margin-bottom:6px;}
+  .cf-author__nums{font-size:12.5px;color:var(--cf-muted);display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;}
+  .cf-author__bio{font-size:13.3px;color:#c3c7e6;margin:0 0 10px;}
+  @media(max-width:780px){.cf-authors{grid-template-columns:minmax(0,1fr);}}
+
+  /* ---------- 解析长文 ---------- */
+  .cf-analysis{
+    display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:36px;align-items:start;
+  }
+  .cf-analysis__aside{
+    background:var(--cf-card);border:1px solid var(--cf-line);
+    border-radius:var(--cf-radius);padding:22px;position:sticky;top:calc(var(--cf-head-h) + 12px);
+  }
+  .cf-analysis__aside h3{font-size:15px;margin:0 0 12px;color:var(--cf-gold);}
+  .cf-analysis__aside ul{margin:0;padding-left:18px;font-size:13.5px;color:#c3c7e6;display:flex;flex-direction:column;gap:7px;}
+  .cf-analysis__body h3{color:#fff;font-size:18.5px;margin:26px 0 10px;}
+  .cf-analysis__body h3:first-child{margin-top:0;}
+  .cf-analysis__body p{font-size:14.6px;color:#c8cce9;margin:0 0 14px;}
+  .cf-quote{
+    border-left:3px solid var(--cf-pink);padding:10px 0 10px 18px;margin:18px 0;
+    color:#e6e8ff;font-size:14.6px;font-style:italic;background:rgba(255,77,109,.06);border-radius:0 12px 12px 0;
+  }
+  @media(max-width:900px){
+    .cf-analysis{grid-template-columns:minmax(0,1fr);}
+    .cf-analysis__aside{position:static;}
+  }
+
+  /* ---------- 评论 ---------- */
+  .cf-comments{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+  .cf-comment{
+    background:rgba(255,255,255,.035);border:1px solid var(--cf-line);
+    border-radius:14px;padding:16px 18px;
+  }
+  .cf-comment__head{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .cf-comment__avatar{
+    width:34px;height:34px;border-radius:50%;display:grid;place-items:center;
+    font-size:13px;font-weight:800;color:#0b0d1f;flex:none;
+  }
+  .cf-comment__name{font-size:13.5px;font-weight:700;}
+  .cf-comment__time{font-size:11.5px;color:var(--cf-muted);margin-left:auto;}
+  .cf-comment p{font-size:13.6px;color:#c8cce9;margin:0 0 8px;}
+  .cf-stars{color:var(--cf-gold);font-size:12.5px;letter-spacing:2px;}
+  @media(max-width:780px){.cf-comments{grid-template-columns:minmax(0,1fr);}}
+
+  /* ---------- 榜单 ---------- */
+  .cf-rank{
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    overflow:hidden;
+  }
+  .cf-rank__row{
+    display:flex;align-items:center;gap:16px;padding:14px 20px;
+    border-bottom:1px solid var(--cf-line);font-size:14px;transition:.16s;
+  }
+  .cf-rank__row:last-child{border-bottom:none;}
+  .cf-rank__row:hover{background:rgba(255,255,255,.04);}
+  .cf-rank__no{
+    width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+    font-size:12.5px;font-weight:900;background:rgba(255,255,255,.07);color:var(--cf-muted);flex:none;
+  }
+  .cf-rank__row:nth-child(1) .cf-rank__no{background:var(--cf-gold);color:#241a00;}
+  .cf-rank__row:nth-child(2) .cf-rank__no{background:#c9cfe4;color:#1d2138;}
+  .cf-rank__row:nth-child(3) .cf-rank__no{background:#e08a4e;color:#241304;}
+  .cf-rank__title{flex:1;min-width:0;}
+  .cf-rank__meta{font-size:12.5px;color:var(--cf-muted);flex:none;}
+
+  /* ---------- 动态 + 合作 ---------- */
+  .cf-two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+  .cf-panel{
+    background:var(--cf-card);border:1px solid var(--cf-line);border-radius:var(--cf-radius);
+    padding:24px;
+  }
+  .cf-news{display:flex;flex-direction:column;gap:14px;margin:0;padding:0;list-style:none;}
+  .cf-news li{display:flex;gap:12px;font-size:14px;color:#c8cce9;}
+  .cf-news time{font-size:12px;color:var(--cf-cyan);flex:none;font-variant-numeric:tabular-nums;}
+  .cf-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+  .cf-partner{
+    border:1px dashed var(--cf-line);border-radius:12px;padding:14px 16px;
+    font-size:13.5px;color:#cdd1f0;display:flex;align-items:center;gap:10px;
+  }
+  .cf-partner b{
+    width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+    font-size:12px;background:rgba(255,77,109,.18);color:#ff9db0;flex:none;
+  }
+  @media(max-width:860px){.cf-two{grid-template-columns:minmax(0,1fr);}}
+
+  /* ---------- FAQ ---------- */
+  .cf-faq{display:flex;flex-direction:column;gap:12px;}
+  .cf-faq details{
+    background:rgba(255,255,255,.035);border:1px solid var(--cf-line);
+    border-radius:12px;padding:0 18px;transition:.18s;
+  }
+  .cf-faq details[open]{border-color:rgba(255,77,109,.4);background:rgba(255,77,109,.07);}
+  .cf-faq summary{
+    cursor:pointer;list-style:none;padding:15px 0;font-size:14.6px;font-weight:700;
+    display:flex;justify-content:space-between;gap:14px;align-items:center;
+  }
+  .cf-faq summary::-webkit-details-marker{display:none;}
+  .cf-faq summary::after{content:"+";color:var(--cf-pink);font-size:18px;flex:none;}
+  .cf-faq details[open] summary::after{content:"−";}
+  .cf-faq p{margin:0 0 16px;font-size:13.8px;color:var(--cf-muted);}
+
+  /* ---------- 页脚 ---------- */
+  .cf-footer{
+    border-top:1px solid var(--cf-line);background:var(--cf-dark-2);
+    padding:48px 0 26px;margin-top:20px;
+  }
+  .cf-footer__grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:30px;}
+  .cf-footer h3{font-size:14px;color:#fff;margin:0 0 12px;}
+  .cf-footer p,.cf-footer li{font-size:13.2px;color:var(--cf-muted);line-height:1.9;}
+  .cf-footer ul{list-style:none;margin:0;padding:0;}
+  .cf-footer__bottom{
+    margin-top:34px;padding-top:18px;border-top:1px solid var(--cf-line);
+    font-size:12.5px;color:#8b90b6;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  }
+  @media(max-width:860px){
+    .cf-footer__grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+  }
+  @media(max-width:520px){
+    .cf-footer__grid{grid-template-columns:minmax(0,1fr);}
+  }
+
+  /* ---------- 回到顶部 + Toast + 弹窗 ---------- */
+  .cf-top{
+    position:fixed;right:24px;bottom:24px;width:46px;height:46px;border-radius:50%;
+    background:var(--cf-pink);color:#fff;font-size:18px;display:grid;place-items:center;
+    box-shadow:0 10px 26px rgba(255,77,109,.42);z-index:80;
+    opacity:0;pointer-events:none;transform:translateY(10px);transition:.22s;
+  }
+  .cf-top.is-show{opacity:1;pointer-events:auto;transform:none;}
+  .cf-toast{
+    position:fixed;left:50%;bottom:84px;transform:translate(-50%,16px);
+    background:#fff;color:#171a35;font-size:13.5px;font-weight:700;
+    padding:10px 20px;border-radius:99px;opacity:0;pointer-events:none;
+    transition:.24s;z-index:120;box-shadow:0 14px 34px rgba(0,0,0,.35);
+  }
+  .cf-toast.is-show{opacity:1;transform:translate(-50%,0);}
+  .cf-modal{
+    position:fixed;inset:0;z-index:110;display:none;place-items:center;
+    background:rgba(5,6,16,.76);backdrop-filter:blur(5px);padding:20px;
+  }
+  .cf-modal.is-open{display:grid;}
+  .cf-modal__box{
+    width:min(520px,100%);background:var(--cf-dark-2);border:1px solid var(--cf-line);
+    border-radius:18px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.6);
+    max-height:86vh;overflow:auto;
+  }
+  .cf-modal__box h3{margin:0 0 10px;font-size:19px;}
+  .cf-modal__box p{font-size:14px;color:var(--cf-muted);}
+  .cf-modal__close{
+    float:right;font-size:20px;color:var(--cf-muted);line-height:1;
+  }
+  .cf-modal__close:hover{color:#fff;}
+  .cf-field{display:flex;flex-direction:column;gap:6px;margin:14px 0;font-size:13.5px;color:#c8cce9;}
+  .cf-field input,.cf-field textarea{
+    background:rgba(255,255,255,.06);border:1px solid var(--cf-line);border-radius:10px;
+    padding:10px 13px;color:#fff;font-size:14px;outline:none;font-family:inherit;
+  }
+  .cf-field input:focus,.cf-field textarea:focus{border-color:var(--cf-pink);}
+  .cf-share{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;}
+  .cf-share button{
+    border:1px solid var(--cf-line);border-radius:99px;padding:8px 16px;font-size:13px;
+    color:#cfd3f2;background:rgba(255,255,255,.04);
+  }
+  .cf-share button:hover{background:rgba(255,255,255,.1);color:#fff;}
+
+  .cf-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}
+  :target{scroll-margin-top:var(--cf-head-h);}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- ===== S1 公告条 + 页头 ===== -->
+<div class="cf-sticky">
+  <div class="cf-notice">
+    <div class="cf-wrap">
+      <span class="cf-notice__badge">官方发布</span>
+      <span class="cf-notice__text">超凡影业精选短剧 · 冬季片单上新：《长夜微光》第1-8集全网上线，短剧创作大赛报名通道同步开启。</span>
+      <a class="cf-notice__link" href="#cf-updates">查看全部更新 &rarr;</a>
+    </div>
+  </div>
+  <header class="cf-header">
+    <div class="cf-wrap cf-header__inner">
+      <a class="cf-logo" href="#top">
+        <span class="cf-logo__mark">超</span>
+        <span>
+          <span class="cf-logo__name">超凡影业精选短剧</span>
+          <span class="cf-logo__sub">CHAOFAN SHORT DRAMA</span>
+        </span>
+      </a>
+      <nav class="cf-nav" id="cfNav" aria-label="主导航">
+        <a href="#cf-focus">焦点首映</a>
+        <a href="#cf-videos">短剧精选</a>
+        <a href="#cf-topics">专题企划</a>
+        <a href="#cf-authors">创作者</a>
+        <a href="#cf-analysis">品牌解析</a>
+        <a href="#cf-comments">口碑</a>
+        <a href="#cf-faq">帮助</a>
+      </nav>
+      <div class="cf-header__tools">
+        <div class="cf-search">
+          <span class="cf-search__icon">&#128269;</span>
+          <input id="cfSearchInput" type="search" placeholder="搜索短剧 / 创作者 / 专题" aria-label="站内搜索">
+          <div class="cf-search__hint" id="cfSearchHint"></div>
+        </div>
+        <button class="cf-burger" id="cfBurger" aria-label="展开导航" aria-expanded="false">&#9776;</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+
+  <!-- ===== S2 品牌首屏 ===== -->
+  <section class="cf-hero">
+    <div class="cf-wrap cf-hero__inner">
+      <div>
+        <span class="cf-hero__badge">&#9670; 官方网站 · 原创精品短剧内容平台</span>
+        <h1>超凡影业精选短剧</h1>
+        <p class="cf-hero__desc">作为深耕竖屏短剧领域的品牌企业，我们以原创、正版与高清为核心标准，搭建连接创作者与观众的内容生态。从都市悬疑到温情日常，每一部精选短剧都在这里被认真对待。</p>
+        <p class="cf-hero__desc">超凡影业精选短剧官网汇聚企业自制剧集、新锐创作者作品与社区共创企划，为每一位热爱短剧的用户提供值得信赖的观看与交流空间。</p>
+        <div class="cf-hero__actions">
+          <a class="cf-btn" href="#cf-videos">&#9654; 进入精选短剧</a>
+          <a class="cf-btn cf-btn--ghost" href="#cf-authors">认识创作者</a>
+          <button class="cf-btn cf-btn--ghost" data-cf-open="submit">投稿与报名</button>
+        </div>
+        <div class="cf-stats">
+          <div class="cf-stat">
+            <div class="cf-stat__num">1,286</div>
+            <div class="cf-stat__label">正版短剧存量（部）</div>
+          </div>
+          <div class="cf-stat">
+            <div class="cf-stat__num">4,730万</div>
+            <div class="cf-stat__label">平台累计播放</div>
+          </div>
+          <div class="cf-stat">
+            <div class="cf-stat__num">386</div>
+            <div class="cf-stat__label">签约创作者</div>
+          </div>
+        </div>
+      </div>
+      <div class="cf-hero__visual">
+        <div class="cf-hero__frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23141633'/%3E%3Cstop offset='1' stop-color='%233b1240'/%3E%3C/linearGradient%3E%3ClinearGradient id='g2' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ff4d6d'/%3E%3Cstop offset='1' stop-color='%23ff9a3c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23g1)'/%3E%3Ccircle cx='640' cy='120' r='150' fill='%235ce1e6' opacity='.16'/%3E%3Ccircle cx='170' cy='400' r='190' fill='%23ff4d6d' opacity='.18'/%3E%3Crect x='120' y='150' width='190' height='300' rx='14' fill='%230b0d1f' stroke='%23ff4d6d' stroke-width='3'/%3E%3Crect x='140' y='178' width='150' height='90' rx='8' fill='url(%23g2)'/%3E%3Crect x='140' y='286' width='120' height='10' rx='5' fill='%23eef0ff' opacity='.75'/%3E%3Crect x='140' y='308' width='90' height='10' rx='5' fill='%23eef0ff' opacity='.4'/%3E%3Crect x='140' y='344' width='150' height='8' rx='4' fill='%235ce1e6' opacity='.7'/%3E%3Crect x='140' y='364' width='130' height='8' rx='4' fill='%23eef0ff' opacity='.25'/%3E%3Crect x='360' y='200' width='250' height='170' rx='12' fill='%23171a35' stroke='%235ce1e6' stroke-width='2'/%3E%3Cpath d='M460 250l0 70 58-35z' fill='%23ffd166'/%3E%3Crect x='360' y='396' width='250' height='12' rx='6' fill='%23eef0ff' opacity='.5'/%3E%3Crect x='360' y='420' width='180' height='10' rx='5' fill='%23eef0ff' opacity='.25'/%3E%3C/svg%3E" alt="超凡影业精选短剧官方网站首屏主视觉：竖屏短剧放映与播放器界面组合" width="800" height="550">
+        </div>
+        <div class="cf-hero__float">
+          <strong>本周首映 · 长夜微光</strong>
+          <span>都市悬疑短剧 · 全8集 / 4K高清</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S3 焦点内容 ===== -->
+  <section class="cf-section" id="cf-focus">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Featured Premiere</span>
+      <h2 class="cf-h2">焦点首映 · 本周<span class="cf-accent">精选短剧</span>重点推荐</h2>
+      <p class="cf-lead">超凡影业精选短剧官网每周更新焦点片单，由内容团队与社区共同投票选出。以下作品均为品牌自制或正版授权，支持高清播放。</p>
+      <div class="cf-focus">
+        <article class="cf-focus__main">
+          <div class="cf-focus__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='s1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23101a3d'/%3E%3Cstop offset='1' stop-color='%232a0f2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23s1)'/%3E%3Crect x='0' y='330' width='800' height='120' fill='%230b0d1f' opacity='.6'/%3E%3Ccircle cx='400' cy='140' r='76' fill='%23ffd166' opacity='.85'/%3E%3Ccircle cx='400' cy='140' r='58' fill='%23101a3d'/%3E%3Cpath d='M0 330 L190 190 L330 300 L470 170 L650 310 L800 220 L800 450 L0 450Z' fill='%23171a35'/%3E%3Cpath d='M0 370 L160 260 L300 350 L450 250 L620 360 L800 290 L800 450 L0 450Z' fill='%230f1226'/%3E%3Crect x='60' y='60' width='130' height='8' rx='4' fill='%235ce1e6' opacity='.8'/%3E%3Crect x='60' y='80' width='90' height='6' rx='3' fill='%23eef0ff' opacity='.35'/%3E%3C/svg%3E" alt="都市悬疑短剧《长夜微光》夜景封面，月轮与城市剪影" width="800" height="450">
+          </div>
+          <div class="cf-focus__body">
+            <span class="cf-tag">品牌自制</span><span class="cf-tag cf-tag--cyan">都市悬疑</span><span class="cf-tag cf-tag--gold">4K高清</span>
+            <h3 class="cf-h3">长夜微光：一座城市里八个不肯熄灭的夜晚</h3>
+            <p style="font-size:14.5px;color:#c8cce9;margin:0;">超凡影业年度重点短剧，以八集独立又互相咬合的结构，讲述深夜便利店、末班地铁、24小时自习室里的普通人。剧本打磨十一个月，实景拍摄十七个夜晚，是品牌对“真实、温暖、力量”的一次集中表达。</p>
+            <div class="cf-focus__meta">
+              <span>导演：沈牧之</span><span>共8集</span><span>播放 862.4万</span><span>收藏 12.7万</span>
+            </div>
+            <div class="cf-video__bar" style="margin-top:14px;">
+              <a class="cf-btn cf-btn--sm" href="#cf-videos">立即观看</a>
+              <button class="cf-act" data-cf-like>赞 <b>8624</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="cf-focus__list">
+          <article class="cf-focus__item">
+            <span class="cf-focus__num">02 / 焦点</span>
+            <h3>《合租第37天》· 都市轻喜</h3>
+            <p>三个陌生人在三十七平米里重新学习相处。全剧一镜到底实验集已上线，弹幕互动量突破平台纪录。</p>
+            <span class="cf-tag">轻喜剧</span><span class="cf-tag cf-tag--cyan">实验影像</span>
+          </article>
+          <article class="cf-focus__item">
+            <span class="cf-focus__num">03 / 焦点</span>
+            <h3>《一勺人间》· 美食治愈</h3>
+            <p>跟随四位街头摊主，记录凌晨四点的备菜与深夜十一点的收摊。声音全部现场收音，保留烟火气的颗粒。</p>
+            <span class="cf-tag cf-tag--gold">治愈影像</span><span class="cf-tag">日常记录</span>
+          </article>
+          <article class="cf-focus__item">
+            <span class="cf-focus__num">04 / 焦点</span>
+            <h3>《回声实验》· 科幻短片集</h3>
+            <p>六位新锐创作者各拍一集，围绕同一段录音展开不同解释。品牌首次开放原创剧本众创通道。</p>
+            <span class="cf-tag cf-tag--cyan">科幻前沿</span><span class="cf-tag">社区共创</span>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S3 视频流 ===== -->
+  <section class="cf-section" id="cf-videos">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Selected Short Dramas</span>
+      <h2 class="cf-h2">精选短剧 · <span class="cf-accent">高清正版</span>内容持续更新</h2>
+      <p class="cf-lead">以下六部作品覆盖悬疑、轻喜、治愈、科幻与纪实方向。每条内容均标注作者与播放数据，欢迎收藏与分享，帮助优质原创短剧被更多人看见。</p>
+      <div class="cf-videos">
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23221a3f'/%3E%3Cstop offset='1' stop-color='%230d1a2e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23v1)'/%3E%3Crect x='70' y='70' width='200' height='220' rx='10' fill='%230b0d1f' stroke='%23ff4d6d' stroke-width='2'/%3E%3Crect x='370' y='100' width='150' height='110' rx='8' fill='%23ff4d6d' opacity='.6'/%3E%3Ccircle cx='445' cy='250' r='46' fill='%23ffd166' opacity='.85'/%3E%3Cpath d='M430 230l0 40 34-20z' fill='%230b0d1f'/%3E%3Crect x='70' y='306' width='260' height='8' rx='4' fill='%235ce1e6' opacity='.7'/%3E%3C/svg%3E" alt="短剧《合租第37天》封面：客厅沙发与窗外霓虹" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag">都市日常</span>
+            <h3 class="cf-video__title">《合租第37天》第6集：谁动了我的冰箱贴</h3>
+            <p class="cf-video__desc">一次误会引发的全屋冷战，最后靠一张便利贴和解。编剧把生活里的小摩擦写成了轻喜剧节奏。</p>
+            <div class="cf-video__stats"><span>&#9654; 412.6万</span><span>赞 3.2万</span><span>收藏 8,914</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>3208</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23241408'/%3E%3Ccircle cx='320' cy='150' r='96' fill='%23ff9a3c' opacity='.85'/%3E%3Ccircle cx='320' cy='150' r='70' fill='%23ffe0b0'/%3E%3Crect x='180' y='236' width='280' height='56' rx='12' fill='%238b3a12'/%3E%3Crect x='210' y='250' width='60' height='10' rx='5' fill='%23ffd166'/%3E%3Crect x='290' y='250' width='90' height='10' rx='5' fill='%23ffe0b0' opacity='.7'/%3E%3Cpath d='M120 300q60 -30 120 0t120 0t120 0' stroke='%23ffd166' stroke-width='4' fill='none' opacity='.6'/%3E%3C/svg%3E" alt="美食短剧《一勺人间》封面：摊位暖光与汤碗俯视构图" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag cf-tag--gold">美食治愈</span>
+            <h3 class="cf-video__title">《一勺人间》第2集：凌晨四点的第一锅高汤</h3>
+            <p class="cf-video__desc">跟拍面馆老板的备菜流程，从吊汤到开门营业，镜头克制，声音现场收音，保留真实的环境声。</p>
+            <div class="cf-video__stats"><span>&#9654; 386.1万</span><span>赞 2.7万</span><span>收藏 1.1万</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>2714</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23061d22'/%3E%3Cg stroke='%235ce1e6' stroke-width='2' fill='none' opacity='.65'%3E%3Ccircle cx='320' cy='180' r='40'/%3E%3Ccircle cx='320' cy='180' r='78'/%3E%3Ccircle cx='320' cy='180' r='118'/%3E%3C/g%3E%3Ccircle cx='320' cy='180' r='14' fill='%23ffd166'/%3E%3Cpath d='M0 300h640' stroke='%235ce1e6' stroke-width='2' opacity='.3'/%3E%3Crect x='60' y='60' width='90' height='6' rx='3' fill='%235ce1e6'/%3E%3Crect x='60' y='78' width='56' height='5' rx='2.5' fill='%23eef0ff' opacity='.4'/%3E%3C/svg%3E" alt="科幻短剧《回声实验》封面：同心信号波纹与中心光点" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag cf-tag--cyan">科幻前沿</span>
+            <h3 class="cf-video__title">《回声实验》第1集：一段来自三年前的录音</h3>
+            <p class="cf-video__desc">六位创作者共用同一段录音素材，各自给出不同答案。本集为系列的起点，也是世界观铺设最密的一集。</p>
+            <div class="cf-video__stats"><span>&#9654; 298.3万</span><span>赞 2.1万</span><span>收藏 9,462</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>2156</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23122214'/%3E%3Cpath d='M0 260 L140 170 L260 240 L400 150 L520 230 L640 180 L640 360 L0 360Z' fill='%23204d2c'/%3E%3Cpath d='M0 300 L160 230 L300 290 L460 210 L640 280 L640 360 L0 360Z' fill='%2314301b'/%3E%3Ccircle cx='520' cy='96' r='42' fill='%23a8e06a' opacity='.85'/%3E%3Crect x='60' y='70' width='120' height='8' rx='4' fill='%23eef0ff' opacity='.55'/%3E%3Crect x='60' y='90' width='78' height='6' rx='3' fill='%23eef0ff' opacity='.28'/%3E%3C/svg%3E" alt="户外纪实短剧《山谷来信》封面：山路剪影与晨间光线" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag">户外纪实</span>
+            <h3 class="cf-video__title">《山谷来信》第3集：把信送到没有信号的地方</h3>
+            <p class="cf-video__desc">一部拍给慢节奏观众的短剧。三代人翻山送信，途中只说了三句话，却把亲情铺满全片。</p>
+            <div class="cf-video__stats"><span>&#9654; 254.8万</span><span>赞 1.9万</span><span>收藏 7,830</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>1892</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23211a2f'/%3E%3Crect x='90' y='90' width='460' height='180' rx='12' fill='%230b0d1f' stroke='%23ff4d6d' stroke-width='2'/%3E%3Crect x='120' y='120' width='140' height='88' rx='6' fill='%237a2cf0' opacity='.7'/%3E%3Crect x='280' y='120' width='240' height='12' rx='6' fill='%23eef0ff' opacity='.6'/%3E%3Crect x='280' y='146' width='180' height='10' rx='5' fill='%23eef0ff' opacity='.35'/%3E%3Crect x='280' y='172' width='210' height='10' rx='5' fill='%23eef0ff' opacity='.25'/%3E%3Crect x='90' y='292' width='180' height='8' rx='4' fill='%23ffd166' opacity='.8'/%3E%3Crect x='90' y='312' width='110' height='6' rx='3' fill='%23eef0ff' opacity='.3'/%3E%3C/svg%3E" alt="职场短剧《第九层会议室》封面：办公室桌面与投影幕" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag cf-tag--cyan">职场日常</span>
+            <h3 class="cf-video__title">《第九层会议室》第4集：方案被否掉的第七次</h3>
+            <p class="cf-video__desc">不喊口号、不硬灌鸡汤，只把一个普通项目组的坚持拍得可信。导演组在两个真实写字楼取景。</p>
+            <div class="cf-video__stats"><span>&#9654; 221.5万</span><span>赞 1.6万</span><span>收藏 6,204</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>1643</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="cf-video">
+          <div class="cf-video__cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%232a1c14'/%3E%3Ccircle cx='320' cy='186' r='104' fill='%23ffb4a2' opacity='.35'/%3E%3Cpath d='M240 300q0 -110 80 -110t80 110z' fill='%23e07a5f'/%3E%3Ccircle cx='320' cy='150' r='44' fill='%23ffd166'/%3E%3Cpath d='M300 140q20 -18 40 0' stroke='%238b4a2a' stroke-width='4' fill='none'/%3E%3Crect x='70' y='70' width='96' height='7' rx='3.5' fill='%23ffffff' opacity='.45'/%3E%3Crect x='474' y='286' width='96' height='7' rx='3.5' fill='%23ffffff' opacity='.3'/%3E%3C/svg%3E" alt="治愈短剧《给外婆的十个电话》封面：暖色人物剪影与电话听筒" width="640" height="360">
+            <div class="cf-video__play"><span>&#9654;</span></div>
+          </div>
+          <div class="cf-video__body">
+            <span class="cf-tag cf-tag--gold">情感故事</span>
+            <h3 class="cf-video__title">《给外婆的十个电话》第9集：您先别挂</h3>
+            <p class="cf-video__desc">每集一通电话，十集讲完一次告别。台词全部来自真实家庭通话录音的改编，配音保留了方言尾音。</p>
+            <div class="cf-video__stats"><span>&#9654; 198.7万</span><span>赞 1.4万</span><span>收藏 5,912</span></div>
+            <div class="cf-video__bar">
+              <button class="cf-act" data-cf-like>赞 <b>1427</b></button>
+              <button class="cf-act" data-cf-save>收藏</button>
+              <button class="cf-act" data-cf-share>分享</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S4 专题企划 ===== -->
+  <section class="cf-section" id="cf-topics">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Editorial Projects</span>
+      <h2 class="cf-h2">专题企划 · 围绕<span class="cf-accent">短剧创作</span>的长期内容实验</h2>
+      <p class="cf-lead">超凡影业精选短剧官网以专题形式沉淀内容生态：从城市取景到新人扶持，从剧本工作坊到社区共创，每个企划都有清晰的更新节奏与参与方式。</p>
+      <div class="cf-topics">
+        <article class="cf-topic">
+          <div class="cf-topic__head">
+            <h3 class="cf-h3">专题一 · 城市取景计划</h3>
+            <span class="cf-topic__status">持续更新</span>
+          </div>
+          <p>把镜头交给真实街区。我们与本地创作者一起，在同一条街拍出十种不同的短剧气质，探索短剧与城市空间的绑定关系。</p>
+          <ol>
+            <li>《便利店门口的三分钟》· 已上线</li>
+            <li>《天桥上的第九次相遇》· 制作中</li>
+            <li>《末班公交的固定乘客》· 剧本众创中</li>
+          </ol>
+        </article>
+        <article class="cf-topic">
+          <div class="cf-topic__head">
+            <h3 class="cf-h3">专题二 · 新人导演扶持季</h3>
+            <span class="cf-topic__status">招募中</span>
+          </div>
+          <p>面向首次执导短剧的新人创作者，提供拍摄器材、后期支持与官方发布位。每季评选一次，入选作品进入官网精品内容库。</p>
+          <ol>
+            <li>第一季《回声实验》系列 · 已完结</li>
+            <li>第二季 城市轻喜单元 · 剪辑中</li>
+            <li>第三季 提案通道 · 12月20日截止</li>
+          </ol>
+        </article>
+        <article class="cf-topic">
+          <div class="cf-topic__head">
+            <h3 class="cf-h3">专题三 · 短剧创作工作坊</h3>
+            <span class="cf-topic__status">每月一期</span>
+          </div>
+          <p>线下开放给所有投稿者，从剧本结构、竖屏构图到声音设计，逐项拆解。工作坊产出的创意将进入品牌剧本池。</p>
+          <ol>
+            <li>第十期：三分钟内如何立住一个人物</li>
+            <li>第十一期：短剧台词的生活化改稿</li>
+            <li>第十二期：把真实事件搬上镜头</li>
+          </ol>
+        </article>
+        <article class="cf-topic">
+          <div class="cf-topic__head">
+            <h3 class="cf-h3">专题四 · 社区共创剧场</h3>
+            <span class="cf-topic__status">投票进行中</span>
+          </div>
+          <p>由用户投票决定下一部短剧的题材走向与结局版本。社区创意经过编剧组整理后，成为正式拍摄方案的一部分。</p>
+          <ol>
+            <li>本期选题投票：悬疑 / 治愈 / 科幻</li>
+            <li>结局共创：三条分支剧本公开朗读</li>
+            <li>上线时间：12月末，官网同步首映</li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S5 创作者（访谈摘录 + 双列） ===== -->
+  <section class="cf-section" id="cf-authors">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Creators</span>
+      <h2 class="cf-h2">创作者矩阵 · 让<span class="cf-accent">原创短剧</span>被更多人记住</h2>
+      <p class="cf-lead">平台签约与长期合作创作者共386位，以下为近期活跃的五位。他们来自编剧、导演、摄影与后期不同岗位，共同构成超凡影业精选短剧的内容生态。</p>
+      <div class="cf-authors">
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#ff4d6d,#7a2cf0);">沈</div>
+          <div>
+            <h3 class="cf-author__name">沈牧之</h3>
+            <div class="cf-author__field">悬疑 · 都市叙事</div>
+            <div class="cf-author__nums"><span>作品 42 部</span><span>粉丝 96.3万</span></div>
+            <p class="cf-author__bio">在广告行业做了七年美术指导，2021年转向短剧导演。《长夜微光》是他在平台的第一部自制长片。习惯先画分镜再写台词，认为短剧的密度应该留在细节里。</p>
+          </div>
+        </article>
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#ffd166,#ff7a45);">夏</div>
+          <div>
+            <h3 class="cf-author__name">夏知白</h3>
+            <div class="cf-author__field">编剧 · 生活喜剧</div>
+            <div class="cf-author__nums"><span>作品 68 部</span><span>粉丝 74.8万</span></div>
+            <p class="cf-author__bio">擅长把日常琐事写成笑话。《合租第37天》里的冰箱贴情节来自她自己的租房经历。坚持每集至少留一个“观众可以吐槽”的缝隙，让评论区成为剧本的第二稿。</p>
+          </div>
+        </article>
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#5ce1e6,#2b7fff);">陆</div>
+          <div>
+            <h3 class="cf-author__name">陆行舟</h3>
+            <div class="cf-author__field">摄影 · 户外纪实</div>
+            <div class="cf-author__nums"><span>作品 31 部</span><span>粉丝 52.6万</span></div>
+            <p class="cf-author__bio">常年在山地与沿海取景，擅长用手持镜头呈现真实呼吸感。《山谷来信》的送信长镜头连续拍摄十一条，最后选用的是演员真失误的那一次。相信影像的诚实比精致更重要。</p>
+          </div>
+        </article>
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#a8e06a,#1f8a52);">程</div>
+          <div>
+            <h3 class="cf-author__name">程一禾</h3>
+            <div class="cf-author__field">后期 · 声音设计</div>
+            <div class="cf-author__nums"><span>作品 55 部</span><span>粉丝 41.2万</span></div>
+            <p class="cf-author__bio">负责平台多部作品的现场收音与混音。她主张短剧不该用音乐掩盖环境声，《一勺人间》里油锅的声响全部保留。也为新人创作者开设免费的音频公开课。</p>
+          </div>
+        </article>
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#c084fc,#ff4d6d);">白</div>
+          <div>
+            <h3 class="cf-author__name">白鹿鸣</h3>
+            <div class="cf-author__field">导演 · 科幻实验</div>
+            <div class="cf-author__nums"><span>作品 19 部</span><span>粉丝 63.9万</span></div>
+            <p class="cf-author__bio">工科背景出身，拍摄前会给剧组发一份设定文档。他主导的《回声实验》邀请六位创作者共用素材，是平台共创机制的一次尝试。关注技术如何改变叙事，而不是替代叙事。</p>
+          </div>
+        </article>
+
+        <article class="cf-author">
+          <div class="cf-avatar" style="background:linear-gradient(135deg,#ff9a3c,#e07a5f);">简</div>
+          <div>
+            <h3 class="cf-author__name">简宁</h3>
+            <div class="cf-author__field">编剧 · 情感治愈</div>
+            <div class="cf-author__nums"><span>作品 37 部</span><span>粉丝 58.4万</span></div>
+            <p class="cf-author__bio">曾任杂志编辑，转型后专注家庭题材。《给外婆的十个电话》写作期间访谈了二十多个真实家庭。她坚持短剧也要给情绪留白，让观众在片尾静默几秒。</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S6 图文索引 / 榜单 ===== -->
+  <section class="cf-section" id="cf-rank">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Ranking &amp; Index</span>
+      <h2 class="cf-h2">热度榜与图文索引 · <span class="cf-accent">口碑</span>数据每周更新</h2>
+      <p class="cf-lead">榜单由播放、收藏、评论质量与完播率综合计算，不接受付费排名。图文索引则用于沉淀幕后方法与创作经验，方便创作者查阅。</p>
+      <div class="cf-two" style="align-items:start;">
+        <div>
+          <div class="cf-rank">
+            <div class="cf-rank__row"><span class="cf-rank__no">1</span><span class="cf-rank__title">长夜微光 · 全8集</span><span class="cf-rank__meta">热度 98.6</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">2</span><span class="cf-rank__title">合租第37天 · 更新至第6集</span><span class="cf-rank__meta">热度 96.2</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">3</span><span class="cf-rank__title">一勺人间 · 全5集</span><span class="cf-rank__meta">热度 94.8</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">4</span><span class="cf-rank__title">回声实验 · 全6集</span><span class="cf-rank__meta">热度 91.5</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">5</span><span class="cf-rank__title">山谷来信 · 更新至第3集</span><span class="cf-rank__meta">热度 89.7</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">6</span><span class="cf-rank__title">第九层会议室 · 全10集</span><span class="cf-rank__meta">热度 87.3</span></div>
+            <div class="cf-rank__row"><span class="cf-rank__no">7</span><span class="cf-rank__title">给外婆的十个电话 · 更新至第9集</span><span class="cf-rank__meta">热度 86.1</span></div>
+          </div>
+        </div>
+        <div class="cf-grid" style="grid-template-columns:minmax(0,1fr);">
+          <h3 class="cf-h3">幕后图文索引</h3>
+          <div class="cf-focus__item">
+            <span class="cf-focus__num">攻略</span>
+            <h3>竖屏短剧的镜头安全区：三分法与字幕位的取舍</h3>
+            <p>由摄影组整理，配两张机位示意。说明竖屏构图里人物头部空间与字幕条的常见冲突，附带三种解决方案。</p>
+          </div>
+          <div class="cf-focus__item">
+            <span class="cf-focus__num">教程</span>
+            <h3>三分钟剧本的起承转：把转折点提前到第40秒</h3>
+            <p>编剧组拆解《合租第37天》第6集的节奏表，标注每15秒的情绪变化与信息释放位置。</p>
+          </div>
+          <div class="cf-focus__item">
+            <span class="cf-focus__num">观察</span>
+            <h3>短剧完播率提升的三个非剧情因素</h3>
+            <p>基于平台后台数据，分析开头声画同步率、中段留白时长与结尾镜头长度对完播的影响。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== M15 品牌解析长文 ===== -->
+  <section class="cf-section" id="cf-analysis">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Brand Deep Dive</span>
+      <h2 class="cf-h2">品牌解析 · <span class="cf-accent">超凡影业精选短剧</span>为何值得信赖</h2>
+      <p class="cf-lead">这一部分从企业背景、内容标准与社区机制三个角度，解释超凡影业精选短剧官网如何持续运营一个高品质短剧内容生态。</p>
+      <div class="cf-analysis">
+        <aside class="cf-analysis__aside">
+          <h3>本页要点速览</h3>
+          <ul>
+            <li>企业定位与内容标准</li>
+            <li>短剧生产的四道工序</li>
+            <li>正版与高清的技术保障</li>
+            <li>创作者生态与社区共创</li>
+            <li>社会责任与长期主义</li>
+          </ul>
+        </aside>
+        <div class="cf-analysis__body">
+          <h3>一、从制作公司到内容平台：一条清晰的成长路径</h3>
+          <p>超凡影业最初是一家承接商业影像制作的小型团队，2019年开始尝试竖屏叙事，用三分钟讲完一个完整故事。那时候短剧还没有成为被广泛讨论的品类，团队每天做的事很朴素：写剧本、找场景、拍完、剪完、发出去，再一条条看评论区的反馈。正是这段“拍给真实观众看”的经历，让企业意识到短剧的核心不是时长，而是密度——在有限的时间里把人物、情绪与信息都交代清楚。</p>
+          <p>随着作品积累，团队从项目制走向平台化运营，最终形成今天的超凡影业精选短剧。作为一家持续运营的短剧品牌，我们并没有把“数量”当作第一目标。官网收录的每一部作品都要经过剧本评审、成片审看与版权确认三道流程，宁可少上几部，也不让粗糙的内容稀释口碑。这种近乎固执的坚持，是品牌能够被用户首选的真正原因。</p>
+          <p>企业目前设有剧本中心、制作中心、创作者运营与社区运营四个部门，签约创作者386位，覆盖编剧、导演、摄影、后期与表演等岗位。我们希望构建的不是一个单向播出的频道，而是一个多元、包容的短剧内容生态：新人可以在这里被看见，成熟创作者可以在这里试验更冒险的表达。</p>
+
+          <h3>二、四道工序：短剧生产如何保证品质</h3>
+          <p>第一道是选题。剧本中心每月会整理社区评论、投稿邮箱与工作坊反馈，把观众真正关心的议题列为候选。选题会上，任何一位编剧都可以否决一个方案，理由必须写进会议记录，避免“凭感觉”决策。《长夜微光》的深夜便利店设定，就是来自一条关于夜班工作者的大量讨论。</p>
+          <p>第二道是剧本打磨。我们要求每集剧本至少经过两轮朗读，由不同岗位的人参与，从摄影、声音到表演的角度提出问题。很多在纸上读起来顺畅的台词，一旦念出来就会暴露不自然的地方。夏知白所说的“给观众留吐槽的缝隙”，实际上也是打磨的一部分——不把话说到满，观众才有参与空间。</p>
+          <p>第三道是制作与审看。拍摄完成后，成片会在内部进行小范围试看，记录观众在第几秒走神、在哪个镜头暂停。这些数据不会替代创作判断，但能提示明显的节奏问题。声音设计在这一环节尤其关键，程一禾坚持保留现场环境声，也是为了让短剧有可被记住的空间质感。</p>
+          <p>第四道是上线与复盘。每部作品上线后，运营团队会整理完播率、收藏率与评论情绪，形成一份复盘记录存入内容库。失败的作品同样被记录，因为行业观察的价值往往藏在做得不够好的地方。这套流程听起来并不惊艳，但正是它让“精品内容”四个字有了可执行的落点。</p>
+
+          <h3>三、高清、正版与可信赖：技术背后的态度</h3>
+          <p>作为官方网站，我们为所有作品提供统一的高清播放规格，并在片头标注版权信息与制作团队名单。正版不仅是法律要求，更是对创作者劳动的尊重。平台所有上线作品均完成授权确认，转载与二次剪辑需通过官方渠道申请，这一流程在FAQ中有详细说明。</p>
+          <p>技术团队为短剧做了针对性的优化：弱网环境下自动降级但保留关键画面，横竖屏切换不清空进度，评论区与播放器分离加载以保证加载速度。这些细节用户未必会注意到，但正是无数个这样的细节，组成了一次顺畅的观看体验。用户至上不是一句口号，而是把每一个可能卡住的地方提前处理掉。</p>
+          <p>我们也清楚，平台再完善也无法替代创作者的判断。因此在技术标准之外，企业始终给创作留出空间：允许实验性的构图、允许不完美的收音、允许结局不讨喜。这种包容并不等于降低标准，而是承认短剧作为一种影像表达，本身就应该有多元的模样。</p>
+
+          <h3>四、社区共创：让观众也成为内容的一部分</h3>
+          <p>社区共创剧场是平台最具活力的板块。用户可以通过投票决定下一部短剧的题材走向，也可以在结局共创环节读到三条分支剧本，并参与公开朗读。入选的创意会标注提出者昵称，出现在片尾名单里。这种做法让“参与”变得具体，而不是点赞式的浅层互动。</p>
+          <p>短剧创作大赛每季度举办一次，面向所有投稿者开放。评审由内部编剧、外部影评人与社区代表共同组成，评分维度公开透明。我们尤其关注那些不迎合流行套路的作品——哪怕它在数据上并不突出，只要表达真实、有力量，就有机会进入官网首页。</p>
+          <p>企业与创作者之间不是简单的采购关系。平台为签约创作者提供稳定的拍摄资源、后期支持与官方发布位，同时保留其署名权与创作自主权。长期合作的基础是彼此信任，而信任来自一次次按时上线、一次次认真复盘。这种关系，才是内容生态能够持续生长的土壤。</p>
+
+          <div class="cf-quote">“短剧不是快消品。三分钟也可以有完整的呼吸、有值得回味的留白。我们愿意为这三分钟，花上十一个月。” —— 超凡影业内容团队</div>
+
+          <h3>五、社会责任与下一个阶段</h3>
+          <p>作为一家持续运营的内容企业，我们关注短剧对年轻观众的影响，因此在选题上主动回避猎奇与煽动，鼓励真实、温暖的表达。平台每年与公益机构合作拍摄一组记录短片，讲述普通岗位上的坚守，这些内容不追求播放量，但会长期保留在官网。</p>
+          <p>下一阶段，超凡影业精选短剧将继续深耕垂直领域：完善新人导演扶持机制，扩大工作坊的线下覆盖城市，并尝试与更多独立创作者共建剧本库。我们相信，一个值得信赖的短剧品牌，应该既能拿出经得起反复观看的作品，也能为行业留下可被参考的方法。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S6 用户评价 ===== -->
+  <section class="cf-section" id="cf-comments">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Community Voice</span>
+      <h2 class="cf-h2">社区口碑 · 观众这样评价<span class="cf-accent">精选短剧</span></h2>
+      <p class="cf-lead">以下评论来自官网评论区与社区共创活动，均已获得用户授权展示。评价维度涵盖剧情、表演、摄影与观看体验，我们不做筛选式美化。</p>
+      <div class="cf-comments">
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#ffd166;">林</span>
+            <span class="cf-comment__name">林深不讲话</span>
+            <span class="cf-comment__time">11月20日</span>
+          </div>
+          <p>《长夜微光》第三集的便利店长镜头真的顶。没有配乐，只有冰柜嗡嗡响，反而比煽情音乐更有力量。看完我在楼下便利店站了很久。</p>
+          <div class="cf-stars">★★★★★</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#5ce1e6;">周</span>
+            <span class="cf-comment__name">周末剪片人</span>
+            <span class="cf-comment__time">11月18日</span>
+          </div>
+          <p>作为同行说句公道话，这里的后期是真的下了功夫。环境声层次清楚，不像很多短剧全程铺音乐糊过去。收藏了好几集当参考。</p>
+          <div class="cf-stars">★★★★★</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#c084fc;">阿</span>
+            <span class="cf-comment__name">阿柚今天早睡</span>
+            <span class="cf-comment__time">11月16日</span>
+          </div>
+          <p>合租那部笑死我了，冰箱贴那段简直是我室友本人。就是更新能不能快一点，一周一集真的不够看。</p>
+          <div class="cf-stars">★★★★☆</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#a8e06a;">陈</span>
+            <span class="cf-comment__name">陈年旧磁带</span>
+            <span class="cf-comment__time">11月14日</span>
+          </div>
+          <p>给外婆的十个电话看到第九集直接破防。方言尾音处理得特别好，不是那种刻意卖惨的写法。希望多做这类真实题材。</p>
+          <div class="cf-stars">★★★★★</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#ff9a3c;">陆</span>
+            <span class="cf-comment__name">陆地上的鱼</span>
+            <span class="cf-comment__time">11月12日</span>
+          </div>
+          <p>投稿了一个剧本，两周后收到修改建议，写得很具体，不是模板回复。虽然没入选，但这份认真值得给个好评。</p>
+          <div class="cf-stars">★★★★☆</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#ff4d6d;">白</span>
+            <span class="cf-comment__name">白开水加冰</span>
+            <span class="cf-comment__time">11月10日</span>
+          </div>
+          <p>回声实验的设定挺敢的，六个人拍同一个素材，答案完全不一样。第一集世界观铺得有点密，看第二遍才理清线索。</p>
+          <div class="cf-stars">★★★★☆</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#5ce1e6;">小</span>
+            <span class="cf-comment__name">小城放电影</span>
+            <span class="cf-comment__time">11月8日</span>
+          </div>
+          <p>山谷来信节奏慢，但看着很舒服。送信路上三个人只说三句话，就把亲情讲明白了。适合晚上一个人安静看。</p>
+          <div class="cf-stars">★★★★★</div>
+        </article>
+        <article class="cf-comment">
+          <div class="cf-comment__head">
+            <span class="cf-comment__avatar" style="background:#ffd166;">郝</span>
+            <span class="cf-comment__name">郝想请假</span>
+            <span class="cf-comment__time">11月6日</span>
+          </div>
+          <p>第九层会议室那个方案被否七次的桥段，我隔着屏幕都紧张。职场短剧最容易喊口号，这部没有，加分。</p>
+          <div class="cf-stars">★★★★☆</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S7 企业动态 + 合作品牌 ===== -->
+  <section class="cf-section" id="cf-updates">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">Updates &amp; Partners</span>
+      <h2 class="cf-h2">企业动态与合作伙伴 · <span class="cf-accent">官方发布</span>持续同步</h2>
+      <p class="cf-lead">内容生态的稳定运转离不开透明更新。以下为近期企业动态与长期合作的伙伴机构，所有公告以官网发布为准。</p>
+      <div class="cf-two">
+        <div class="cf-panel">
+          <h3 class="cf-h3" style="margin-bottom:16px;">近期企业动态</h3>
+          <ul class="cf-news">
+            <li><time datetime="2026-11-22">11/22</time><span>《长夜微光》第1-8集全网上线，官网同步开放幕后花絮专栏。</span></li>
+            <li><time datetime="2026-11-19">11/19</time><span>短剧创作大赛第三季报名通道开启，提案截止12月20日。</span></li>
+            <li><time datetime="2026-11-15">11/15</time><span>新人导演扶持季第二季成片进入后期，预计12月上旬首映。</span></li>
+            <li><time datetime="2026-11-09">11/09</time><span>第十二期短剧创作工作坊开放报名，本期主题为真实事件改编。</span></li>
+            <li><time datetime="2026-11-02">11/02</time><span>平台播放器完成竖屏切换优化，评论区加载速度提升约三成。</span></li>
+          </ul>
+        </div>
+        <div class="cf-panel">
+          <h3 class="cf-h3" style="margin-bottom:16px;">合作品牌与机构</h3>
+          <div class="cf-partners">
+            <div class="cf-partner"><b>视</b>城市影像档案馆</div>
+            <div class="cf-partner"><b>青</b>青年导演工作坊</div>
+            <div class="cf-partner"><b>声</b>现场声音实验室</div>
+            <div class="cf-partner"><b>光</b>独立电影放映联盟</div>
+            <div class="cf-partner"><b>纸</b>剧本写作研究中心</div>
+            <div class="cf-partner"><b>树</b>社区公益影像计划</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== S7 FAQ ===== -->
+  <section class="cf-section" id="cf-faq">
+    <div class="cf-wrap">
+      <span class="cf-eyebrow">FAQ</span>
+      <h2 class="cf-h2">常见问题 · 关于<span class="cf-accent">超凡影业精选短剧</span>官网</h2>
+      <p class="cf-lead">关于观看、投稿、版权与创作者合作的常见疑问，以下为官方答复。若仍有问题，欢迎通过页面底部的联系渠道反馈。</p>
+      <div class="cf-faq">
+        <details open>
+          <summary>平台上的短剧都是正版吗？可以转载吗？</summary>
+          <p>官网所有上线作品均已完成版权确认，属于品牌自制或官方授权内容。转载、二创与商业使用需通过投稿邮箱提交申请，并注明出处。未经许可的搬运与切条上传，平台将保留追责权利。</p>
+        </details>
+        <details>
+          <summary>如何向超凡影业精选短剧投稿剧本？</summary>
+          <p>点击页面中的“投稿与报名”按钮，填写剧本梗概、人物小传与前三场戏即可。建议单集三至五分钟，系列不超过十集。投稿后两周内会收到初审反馈，无论是否入选都会给出具体建议。</p>
+        </details>
+        <details>
+          <summary>观看是否需要付费？高清播放有额外限制吗？</summary>
+          <p>目前官网精选短剧免费观看，高清播放不设额外门槛。部分实验性作品会在首映期提供弹幕与讨论区，结束后转为常规播放。观看过程中如遇卡顿，可切换清晰度或使用弱网模式。</p>
+        </details>
+        <details>
+          <summary>创作者如何成为平台签约作者？</summary>
+          <p>平台每季度评估一次签约申请，重点看过往作品完成度、表达独特性与合作稳定性。提交三到五部代表作与一份创作计划即可。签约后平台提供拍摄资源、后期支持与官方发布位，同时保留创作者署名权。</p>
+        </details>
+        <details>
+          <summary>社区共创投票的结果如何被采纳？</summary>
+          <p>投票结果会在专题页公示，编剧组根据结果整理出两到三个可行方向，再进入剧本开发。被采纳的创意会在片尾标注提出者昵称，如本人同意，也会出现在正式宣传物料中。</p>
+        </details>
+        <details>
+          <summary>短剧创作大赛的评审标准是什么？</summary>
+          <p>评审从叙事完整度、影像表达、声音设计与原创性四方面打分。我们不鼓励迎合套路，尤其关注真实、有力量的作品。每季获奖名单与评分说明会在官网及企业动态中同步公布。</p>
+        </details>
+        <details>
+          <summary>内容更新频率与更新公告在哪里查看？</summary>
+          <p>精选短剧通常每周五更新，专题企划按各自节奏推进。所有更新会在页面顶部的公告条与“企业动态”板块同步，关注官网即可第一时间获取官方发布信息。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== S8 页脚 ===== -->
+<footer class="cf-footer">
+  <div class="cf-wrap">
+    <div class="cf-footer__grid">
+      <div>
+        <h3>超凡影业精选短剧</h3>
+        <p>深耕短剧领域的原创内容品牌，以高清正版、品质口碑与持续运营为核心，致力于搭建创作者与企业共同成长的内容生态。官方网站为品牌唯一官方发布渠道，所有精品内容以本站公告为准。</p>
+      </div>
+      <div>
+        <h3>内容导航</h3>
+        <ul>
+          <li><a href="#cf-focus">焦点首映</a></li>
+          <li><a href="#cf-videos">精选短剧</a></li>
+          <li><a href="#cf-topics">专题企划</a></li>
+          <li><a href="#cf-rank">热度榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>参与方式</h3>
+        <ul>
+          <li><a href="#cf-faq">投稿须知</a></li>
+          <li><a href="#cf-updates">企业动态</a></li>
+          <li><a href="#cf-authors">创作者计划</a></li>
+          <li><button class="cf-footer-link" data-cf-open="submit" style="padding:0;font-size:13.2px;color:#a3a8cc;">在线报名</button></li>
+        </ul>
+      </div>
+      <div>
+        <h3>官方联系</h3>
+        <ul>
+          <li>商务合作：bd@chaofan-drama.cn</li>
+          <li>投稿邮箱：script@chaofan-drama.cn</li>
+          <li>媒体联络：pr@chaofan-drama.cn</li>
+          <li>工作日 10:00 - 19:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cf-footer__bottom">
+      <span>© 2026 超凡影业精选短剧 官方网站 · 版权所有 · 持续运营中</span>
+      <span>网络文化经营许可 · 广播电视节目制作经营许可 · 备案号 京ICP备2026013579号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="cf-top" id="cfTop" aria-label="回到顶部">&#8593;</button>
+<div class="cf-toast" id="cfToast" role="status" aria-live="polite"></div>
+
+<!-- 投稿/报名 弹窗 -->
+<div class="cf-modal" id="cfModalSubmit" role="dialog" aria-modal="true" aria-labelledby="cfModalSubmitTitle">
+  <div class="cf-modal__box">
+    <button class="cf-modal__close" data-cf-close aria-label="关闭">&times;</button>
+    <h3 id="cfModalSubmitTitle">投稿与报名</h3>
+    <p>请填写基本信息，剧本中心将在两周内给出初审反馈。此表单为前端演示，提交后仅在本页给出提示。</p>
+    <form id="cfSubmitForm">
+      <label class="cf-field">昵称
+        <input type="text" name="nick" placeholder="用于片尾署名" required>
+      </label>
+      <label class="cf-field">联系邮箱
+        <input type="email" name="mail" placeholder="name@example.com" required>
+      </label>
+      <label class="cf-field">作品或提案简介
+        <textarea name="brief" rows="4" placeholder="例如：三分钟都市悬疑单集，讲述末班地铁上的一次误会……" required></textarea>
+      </label>
+      <button class="cf-btn" type="submit">提交申请</button>
+    </form>
+  </div>
+</div>
+
+<!-- 分享 弹窗 -->
+<div class="cf-modal" id="cfModalShare" role="dialog" aria-modal="true" aria-labelledby="cfModalShareTitle">
+  <div class="cf-modal__box">
+    <button class="cf-modal__close" data-cf-close aria-label="关闭">&times;</button>
+    <h3 id="cfModalShareTitle">分享这部精选短剧</h3>
+    <p>将链接分享给同样喜欢短剧的朋友，一起参与社区讨论。</p>
+    <div class="cf-share">
+      <button data-cf-copy>复制链接</button>
+      <button data-cf-chan="微信">微信</button>
+      <button data-cf-chan="微博">微博</button>
+      <button data-cf-chan="QQ">QQ</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var burger = document.getElementById('cfBurger');
+  var nav = document.getElementById('cfNav');
+  if (burger && nav) {
+    burger.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.innerHTML = open ? '&times;' : '&#9776;';
+    });
+    nav.addEventListener('click', function(e){
+      if (e.target.tagName === 'A') {
+        nav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded','false');
+        burger.innerHTML = '&#9776;';
+      }
+    });
+  }
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('cfToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2200);
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchInput = document.getElementById('cfSearchInput');
+  var searchHint = document.getElementById('cfSearchHint');
+  var searchPool = [
+    '长夜微光 · 都市悬疑短剧',
+    '合租第37天 · 生活轻喜剧',
+    '一勺人间 · 美食治愈影像',
+    '回声实验 · 科幻短片集',
+    '山谷来信 · 户外纪实',
+    '第九层会议室 · 职场短剧',
+    '给外婆的十个电话 · 情感故事',
+    '沈牧之 · 悬疑导演',
+    '夏知白 · 编剧',
+    '城市取景计划 · 专题',
+    '新人导演扶持季 · 招募中',
+    '短剧创作工作坊 · 报名'
+  ];
+  function doSearch(){
+    if(!searchInput || !searchHint) return;
+    var kw = searchInput.value.trim();
+    if(!kw){
+      searchHint.classList.remove('is-open');
+      searchHint.innerHTML = '';
+      return;
+    }
+    var hit = searchPool.filter(function(item){ return item.indexOf(kw) !== -1; });
+    if(hit.length === 0){
+      searchHint.innerHTML = '没有找到与 <b>' + escapeHtml(kw) + '</b> 匹配的内容，试试「悬疑」「治愈」或创作者昵称。';
+    }else{
+      searchHint.innerHTML = '为你找到 <b>' + hit.length + '</b> 条相关内容：<br>' +
+        hit.slice(0,5).map(function(item){ return '· ' + escapeHtml(item); }).join('<br>');
+    }
+    searchHint.classList.add('is-open');
+  }
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  if(searchInput){
+    searchInput.addEventListener('input', doSearch);
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+    });
+    document.addEventListener('click', function(e){
+      if(searchHint && !searchHint.contains(e.target) && e.target !== searchInput){
+        searchHint.classList.remove('is-open');
+      }
+    });
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('[data-cf-like]');
+    if(likeBtn){
+      var b = likeBtn.querySelector('b');
+      var liked = likeBtn.classList.toggle('is-liked');
+      if(b){
+        var cur = parseInt(b.textContent.replace(/[^\d]/g,''), 10) || 0;
+        b.textContent = liked ? (cur + 1) : Math.max(0, cur - 1);
+      }
+      showToast(liked ? '已点赞，感谢支持原创短剧' : '已取消点赞');
+      return;
+    }
+    var saveBtn = e.target.closest('[data-cf-save]');
+    if(saveBtn){
+      var saved = saveBtn.classList.toggle('is-saved');
+      saveBtn.textContent = saved ? '已收藏' : '收藏';
+      showToast(saved ? '已加入我的收藏，可在个人主页查看' : '已取消收藏');
+      return;
+    }
+    var shareBtn = e.target.closest('[data-cf-share]');
+    if(shareBtn){
+      openModal('cfModalShare');
+      return;
+    }
+  });
+
+  /* ---------- 弹窗 ---------- */
+  function openModal(id){
+    var m = document.getElementById(id);
+    if(m) m.classList.add('is-open');
+  }
+  document.addEventListener('click', function(e){
+    var opener = e.target.closest('[data-cf-open]');
+    if(opener){
+      openModal('cfModalSubmit');
+      return;
+    }
+    if(e.target.closest('[data-cf-close]')){
+      var box = e.target.closest('.cf-modal');
+      if(box) box.classList.remove('is-open');
+      return;
+    }
+    if(e.target.classList.contains('cf-modal')){
+      e.target.classList.remove('is-open');
+    }
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.cf-modal.is-open').forEach(function(m){ m.classList.remove('is-open'); });
+    }
+  });
+
+  /* ---------- 复制链接 / 分享渠道 ---------- */
+  document.addEventListener('click', function(e){
+    if(e.target.closest('[data-cf-copy]')){
+      var link = 'https://chaofan-drama.cn/';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(link).then(function(){
+          showToast('链接已复制，去分享给朋友吧');
+        }, function(){
+          showToast('复制失败，请手动选择链接');
+        });
+      }else{
+        showToast('当前环境不支持自动复制，请手动复制链接');
+      }
+      return;
+    }
+    var chan = e.target.closest('[data-cf-chan]');
+    if(chan){
+      showToast('已打开' + chan.getAttribute('data-cf-chan') + '分享面板（演示）');
+    }
+  });
+
+  /* ---------- 投稿表单 ---------- */
+  var form = document.getElementById('cfSubmitForm');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var nick = form.querySelector('[name="nick"]').value.trim();
+      showToast(nick ? '投稿已提交，' + nick + ' 请留意邮箱反馈' : '投稿已提交，请留意邮箱反馈');
+      form.reset();
+      var m = document.getElementById('cfModalSubmit');
+      if(m) m.classList.remove('is-open');
+    });
+  }
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('cfTop');
+  if(topBtn){
+    window.addEventListener('scroll', function(){
+      if(window.scrollY > 560){ topBtn.classList.add('is-show'); }
+      else{ topBtn.classList.remove('is-show'); }
+    }, {passive:true});
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* ---------- 数据数字滚动（首屏统计） ---------- */
+  var statEls = document.querySelectorAll('.cf-stat__num');
+  function animateNum(el){
+    var raw = el.textContent;
+    var m = raw.match(/[\d,]+(\.\d+)?/);
+    if(!m) return;
+    var target = parseFloat(m[0].replace(/,/g,''));
+    var suffix = raw.slice(m.index + m[0].length);
+    var prefix = raw.slice(0, m.index);
+    var start = null, dur = 1100;
+    function step(ts){
+      if(!start) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      var cur = target * eased;
+      var txt = target >= 1000 ? Math.round(cur).toLocaleString('en-US') : cur.toFixed(1);
+      if(target % 1 === 0){ txt = Math.round(cur).toString(); if(target >= 1000) txt = Math.round(cur).toLocaleString('en-US'); }
+      el.textContent = prefix + txt + suffix;
+      if(p < 1) requestAnimationFrame(step);
+      else el.textContent = raw;
+    }
+    requestAnimationFrame(step);
+  }
+  if('IntersectionObserver' in window && statEls.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          animateNum(entry.target);
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:.6});
+    statEls.forEach(function(el){ io.observe(el); });
+  }
+})();
+</script>
+</body>
+          </html>
